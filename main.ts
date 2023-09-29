@@ -8,12 +8,12 @@
 // Setup
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
-pins.digitalWritePin(DigitalPin.P16,0)
+pins.digitalWritePin(DigitalPin.P16, 0)
 
 // Turn on LED
 input.onButtonPressed(Button.A, function(){
   basic.showIcon(IconNames.Yes)
-  pins.digitalWritePin(DigitalPin.P16,1)
+  pins.digitalWritePin(DigitalPin.P16, 1)
 })
 
 // Turn off LED
